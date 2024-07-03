@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/altro_foglio"
+	android:orientation="vertical" android:gravity="right"
+	android:layout_width="wrap_content" android:layout_height="fill_parent"
+	android:id="@+id/mediaplayer_layout">
+
+		
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:id="@+id/LinearLayoutMedia">
+
+		<Button android:id="@+id/playResourceButton"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:onClick="playResource" android:text="PLAY"></Button>
+		<Button android:id="@+id/stopResourceButton"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:onClick="stopResource" android:text="STOP"></Button>
+
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/pauseResourceButton"
+			android:onClick="pauseResource" android:text="PAUSE">
+		</Button>
+
+
+
+	</LinearLayout>
+	<ScrollView android:id="@+id/ScrollView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TextView android:textSize="14px" android:textColor="#000000" android:id="@+id/storia" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</ScrollView>
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		style="@android:style/ButtonBar" android:gravity="right">
+	
+			
+<Button android:drawableTop="@drawable/lista" android:text="lista" android:id="@+id/Buttonlista"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0" 
+			android:onClick="lista" android:gravity="center"></Button>
+			
+		<Button android:text="procedi" android:id="@+id/ButtonProcedi"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0" 
+			 android:onClick="procedi" android:layout_gravity="center"></Button>
+	</LinearLayout>
+
+</LinearLayout>

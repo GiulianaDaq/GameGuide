@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   android:orientation="vertical" android:background="@drawable/altro_foglio" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<TextView android:textColor="#000000" android:text="" android:id="@+id/informazione" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="GIOCO FINITO" android:id="@+id/fine" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="" android:id="@+id/invito_rientro" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+     <LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+                <Button android:text="classifica" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="classifica"/>
+<Button android:text="home" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"/>
+<Button android:text="chiudi" android:id="@+id/procedi" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="procedi"></Button>
+</LinearLayout>
+
+
+
+</LinearLayout>

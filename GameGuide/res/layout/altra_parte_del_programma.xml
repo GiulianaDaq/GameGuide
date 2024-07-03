@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="75dip" android:id="@+id/LinearLayout01" android:orientation="vertical"  android:gravity="center_horizontal"
+    android:background="@drawable/home" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+   
+<Button  android:width="80pt" android:onClick="gadget" android:text="Visualizza gadget" android:id="@+id/gadget" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button  android:width="80pt" android:onClick="leggi_ascolta_storie" android:text="Ascolta/leggi storie" android:id="@+id/riascolta_storie" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button  android:width="80pt" android:onClick="wikitude" android:text="Suggerimento luoghi" android:id="@+id/suggerimento_luoghi" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+
+<Button   android:width="80pt" android:onClick="altri_punti" android:text="Accumula altri punti" android:id="@+id/accumula_punti" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button    android:width="80pt" android:onClick="inizia_gioco" android:text="Rifai gioco" android:id="@+id/reinizia_gioco" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button   android:width="80pt" android:onClick="chiudi" android:text="Chiudi applicazione" android:id="@+id/chiudi_applicazione" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+

@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.1.1", "1", "gadget", "EARoot/EA1/EA1/EA6.htm", "4.png", "", "", "{58A6D34F-0067-4444-BACB-D5A7C1FA789D}", "Package");
+tocTab[tocTab.length] = new Array("1.1.2", "1", "GameGuide", "EARoot/EA1/EA1/EA7.htm", "4.png", "", "", "{6765B543-2D42-48d0-BFCF-69BBDB14FA34}", "Package");
+tocTab[tocTab.length] = new Array("1.1.3", "1", "location", "EARoot/EA1/EA1/EA8.htm", "4.png", "", "", "{F84CD016-808B-4b0c-B085-F17FAE86A18A}", "Package");
+tocTab[tocTab.length] = new Array("1.1.4", "1", "login", "EARoot/EA1/EA1/EA9.htm", "4.png", "", "", "{48569DA3-146D-4228-993E-E1F4E509229F}", "Package");
+tocTab[tocTab.length] = new Array("1.1.5", "1", "tts_mediaplayer", "EARoot/EA1/EA1/EA10.htm", "4.png", "", "", "{CCEAE558-987C-4c37-8442-65AFC4F020D5}", "Package");
+tocTab[tocTab.length] = new Array("1.1.6", "1", "wikitude", "EARoot/EA1/EA1/EA11.htm", "4.png", "", "", "{296DE808-8863-4f6d-B874-BF8954D12997}", "Package");

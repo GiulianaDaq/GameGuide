@@ -1,0 +1,196 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT context (descrizione,luoghi,audioContext,commenti,domande,
+                   fotografie,ricostruzioni3d,stile)>
+<!ATTLIST context
+  xmlns CDATA #FIXED ''
+  nome CDATA #REQUIRED
+  tipo NMTOKEN #REQUIRED>
+
+<!ELEMENT descrizione (#PCDATA)>
+<!ATTLIST descrizione
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT luoghi ((altro|chiesa)+,monumento)>
+<!ATTLIST luoghi
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT audioContext (risorsa)>
+<!ATTLIST audioContext
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT commenti (commento)+>
+<!ATTLIST commenti
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT domande (domanda)+>
+<!ATTLIST domande
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fotografie (foto)+>
+<!ATTLIST fotografie
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ricostruzioni3d (ricostruzione)>
+<!ATTLIST ricostruzioni3d
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT stile (sfondo)>
+<!ATTLIST stile
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT altro (informazione,idcommento,idfotografia,idricostruzione3d,
+                 idaudio,audiotts,storia,oggetto1)>
+<!ATTLIST altro
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED
+  latitudine CDATA #REQUIRED
+  longitudine CDATA #REQUIRED
+  nome CDATA #REQUIRED>
+
+<!ELEMENT chiesa (audiotts|idaudio|idcommento|idfotografia
+                  |idricostruzione3d|informazione|oggetto1|storia
+                  |oggetto2|oggetto3|oggetto4|oggetto5)+>
+<!ATTLIST chiesa
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED
+  latitudine CDATA #REQUIRED
+  longitudine CDATA #REQUIRED
+  nome CDATA #REQUIRED>
+
+<!ELEMENT monumento EMPTY>
+<!ATTLIST monumento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT risorsa (id,audio,lat,lon,dMin,dMax,roll)>
+<!ATTLIST risorsa
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT commento (id,testo,utente)>
+<!ATTLIST commento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT domanda (indizio,risposta,rispostaerrata1,rispostaerrata2,
+                   rispostaerrata3)>
+<!ATTLIST domanda
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED
+  testo CDATA #REQUIRED>
+
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT ricostruzione (#PCDATA)>
+<!ATTLIST ricostruzione
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sfondo EMPTY>
+<!ATTLIST sfondo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oggetto2 (#PCDATA)>
+<!ATTLIST oggetto2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oggetto3 (#PCDATA)>
+<!ATTLIST oggetto3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oggetto4 (#PCDATA)>
+<!ATTLIST oggetto4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oggetto5 (#PCDATA)>
+<!ATTLIST oggetto5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT audio EMPTY>
+<!ATTLIST audio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lat EMPTY>
+<!ATTLIST lat
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lon EMPTY>
+<!ATTLIST lon
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dMin EMPTY>
+<!ATTLIST dMin
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT dMax EMPTY>
+<!ATTLIST dMax
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT roll EMPTY>
+<!ATTLIST roll
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT testo (#PCDATA)>
+<!ATTLIST testo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT utente (#PCDATA)>
+<!ATTLIST utente
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT indizio EMPTY>
+<!ATTLIST indizio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT risposta (#PCDATA)>
+<!ATTLIST risposta
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rispostaerrata1 (#PCDATA)>
+<!ATTLIST rispostaerrata1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rispostaerrata2 (#PCDATA)>
+<!ATTLIST rispostaerrata2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rispostaerrata3 (#PCDATA)>
+<!ATTLIST rispostaerrata3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT audiotts (#PCDATA)>
+<!ATTLIST audiotts
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT informazione EMPTY>
+<!ATTLIST informazione
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storia (#PCDATA)>
+<!ATTLIST storia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT oggetto1 (#PCDATA)>
+<!ATTLIST oggetto1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idcommento (#PCDATA)>
+<!ATTLIST idcommento
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idfotografia (#PCDATA)>
+<!ATTLIST idfotografia
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idricostruzione3d (#PCDATA)>
+<!ATTLIST idricostruzione3d
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idaudio (#PCDATA)>
+<!ATTLIST idaudio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+  xmlns CDATA #FIXED ''>

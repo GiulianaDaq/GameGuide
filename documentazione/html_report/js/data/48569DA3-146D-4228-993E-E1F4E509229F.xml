@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("1.1.4:1", "", "login", "EARoot/EA1/EA1/EA4/EA45.htm", "175.png", "10", "0", "", "Logical diagram0","{E52C0CCE-3BB5-41db-BB79-44A0399EB93B}");
+tocTab[tocTab.length] = new Array("1.1.4:2", "", "DbHelper", "EARoot/EA1/EA1/EA4/EA51.htm", "5.png", "189", "0", "", "Class0","{F6861283-41E6-47d4-9446-29AA3F1EF8F4}");
+tocTab[tocTab.length] = new Array("1.1.4:3", "", "loggati", "EARoot/EA1/EA1/EA4/EA52.htm", "5.png", "186", "0", "", "Class0","{97374999-6280-45e3-A9F4-ABA2AC206192}");
+tocTab[tocTab.length] = new Array("1.1.4:4", "", "main", "EARoot/EA1/EA1/EA4/EA53.htm", "5.png", "187", "0", "", "Class0","{326939C8-B6C1-4388-815A-13E42BC9453C}");
+tocTab[tocTab.length] = new Array("1.1.4:5", "", "MyDatabase", "EARoot/EA1/EA1/EA4/EA54.htm", "5.png", "190", "0", "", "Class0","{FACBF120-809D-40de-B542-10FB3A6E2F21}");
+tocTab[tocTab.length] = new Array("1.1.4:6", "", "registrazione", "EARoot/EA1/EA1/EA4/EA55.htm", "5.png", "191", "0", "", "Class0","{BDF5A29B-9D9C-43b0-ACD3-2E2B4B2D1177}");
+tocTab[tocTab.length] = new Array("1.1.4:7", "", "MyOnItemSelectedListener", "EARoot/EA1/EA1/EA4/EA56.htm", "5.png", "185", "186", "", "Class0","{59D2211C-E513-4ab4-8A14-6E87FDFAC93D}");
+tocTab[tocTab.length] = new Array("1.1.4:8", "", "«static» LoginMetaData", "EARoot/EA1/EA1/EA4/EA57.htm", "5.png", "188", "190", "", "Class0","{09E48442-5C05-48e3-B1FB-DCDB63F52163}");

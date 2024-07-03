@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/altro_foglio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+<TextView  
+android:paddingTop="50dip"
+android:gravity="center"
+android:textColor="#000000"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Avvia la camera android per raccogliere i tuoi gadget, i tuoi ricordi! ovvero scatta foto e gira video!"
+    />
+<Button android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:paddingTop="50dip" android:drawableTop="@drawable/ic_menu_camera" android:onClick="setting"  android:id="@+id/Button01"></Button>
+
+
+</LinearLayout>

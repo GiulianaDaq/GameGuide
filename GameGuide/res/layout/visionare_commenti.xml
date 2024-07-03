@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:id="@+id/LinearLayout01" android:orientation="vertical" 
+ android:background="@drawable/altro_foglio"   android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<TextView android:gravity="center" android:paddingTop="20dip" android:textColor="#000000" android:text="Ecco i tuoi commenti" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:paddingTop="20dip" android:textColor="#000000" android:text="" android:id="@+id/commento_cattedrale" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<TextView android:paddingTop="20dip" android:textColor="#000000" android:text="" android:id="@+id/commento_basilica" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+               
+<Button android:text="Home" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"/>
+<Button android:text="Foto/Video" android:id="@+id/media" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="media"/>
+                 <Button android:text="Classifica"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="classifica"/>
+</LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Benvenuto in</string>
+    <string name="app_name">GameGuide</string>
+    <string name="descrizione_applicazione">Arrivato nei pressi della città, ti consiglierò i punti a te più vicini.\nQuando arriverai nel luogo di \nculto inizierà il gioco. Potrai raccogliere punti e accumulare gadget, ovvero foto, video e commenti.</string>
+    
+
+<string name="localizzazione">Ti trovi nei pressi di </string>
+<string name="quando_iniziera_gioco">Il gioco inizierà quando arriverai nel luogo religioso</string>
+   <string name="scegli_nickname">Scegli nickname e accedi</string>
+<string name="autenticazione">Autenticazione</string>
+ <string name="consiglio_hardware">Per utilizzare l\'applicazione attiva i seguenti servizi</string>
+  <string name="consiglio_hardware2">Entrambi i servizi permettono di poter recuperare le tue coordinate geografiche, indispensabili per iniziare il gioco</string>
+<string name="dove_sei">Ti trovi nei pressi di </string>
+<string name="avviso_inizio_gioco">Il gioco inizierà quando arriverai nel luogo religioso</string>
+<string name="hellowiki">Ora vedrai i punti più interessanti del luogo.\n
+Verrai avvisato quando arriverai nel luogo religioso e inizierai il gioco premendo back!
+    </string>
+   <string name="custom_dialog_activity_text">desc</string>
+   
+    <string name="launch_wikitude">Wikitude</string>
+   
+    <string name="toast_ar_not_found">No application installed to show AR view</string>
+    <string name="callback">We are now in the callback Intent</string>
+    <string name="modelfile_not_found_title">File not found</string>
+    <string name="modelfile_not_found">The modelfile %s cannot be found. Please copy the file included in the WIKITUDE API distribution package onto your SD card.</string>
+    <string name="radio_group_selection">null</string>
+<string name="radio_group_none">radio_group_none</string>
+</resources>

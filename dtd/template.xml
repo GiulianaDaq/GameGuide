@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE template SYSTEM "template.dtd">
+<template name="Game Guide">
+    <tappe>
+<!--cattedrale-->
+       <idtappa tipo="chiesa">
+             <id>1</id>
+             <descrizione></descrizione>
+             <iddomanda>1</iddomanda>
+       </idtappa>
+
+
+<!--storia san nicola-->
+       <idtappa tipo="altro">
+             <id>2</id>
+             <descrizione>...</descrizione>
+             <iddomanda></iddomanda>
+       </idtappa>
+
+<!--basilica-->
+      <idtappa tipo="chiesa">
+          <descrizione></descrizione>
+          <id>3</id>
+          <iddomanda>7</iddomanda>
+       </idtappa>
+
+    
+     </tappe>
+<idstile>1</idstile>
+</template>

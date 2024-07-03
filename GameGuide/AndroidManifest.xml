@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.GameGuide" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:name="occorrente_game_guide.MyVarGlobali">
+		<activity android:name=".main" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.login.main"></activity>
+		<activity android:name="com.login.loggati"></activity>
+		<activity android:name="com.login.registrazione"></activity>
+
+		<activity android:name="com.location.setting"></activity>
+		<activity android:name="com.location.location"></activity>
+
+		<activity android:name="com.GameGuide.BasicOpenARDemoActivity">
+			<intent-filter>
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.wikitude.CallBackActivity"
+			android:theme="@*android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action android:name="wikitudeapi.mycallbackactivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.wikitude.temp"></activity>
+		<activity android:name="com.location.inizio_gioco_guida"></activity>
+		<activity android:name="com.location.main"></activity>
+		<activity android:name="com.login.visualizza_gadget"></activity>
+		<activity android:name="com.ExploreGameGuide.ExploreGameGuide"></activity>
+		<activity android:name="xml.explore.mainExplore"></activity>
+		<activity android:name="occorrente_game_guide.storia"></activity>
+		<activity android:name="com.tts_mediaplayer.mediaplayer"></activity>
+		<activity android:name="occorrente_game_guide.informazione"></activity>
+
+
+
+		<activity android:name="occorrente_game_guide.fine"></activity>
+		<activity android:name="occorrente_game_guide.altra_informazione"></activity>
+		<activity android:name="occorrente_game_guide.informazione_visita"></activity>
+		<activity android:name="occorrente_game_guide.informazione_ingresso"></activity>
+		<activity android:name="com.gadget.gadget"></activity>
+		<activity android:name="com.gadget.media"></activity>
+		<activity android:name="com.gadget.gadget_ingresso"></activity>
+		<activity android:name="com.gadget.gadget_visita"></activity>
+		<activity android:name="com.gadget.gadget_altro"></activity>
+		<activity android:name="occorrente_game_guide.commento"></activity>
+		<activity android:name="occorrente_game_guide.domanda"></activity>
+		<activity android:name="occorrente_game_guide.chiudi_sistema"></activity>
+		<activity android:name="chiudi_sistema"></activity>
+		<activity android:name="rientro_applicazione.rientro_applicazione"></activity>
+		<activity android:name="rientro_applicazione.leggi_ascolta_storie"></activity>
+		<activity android:name="rientro_applicazione.scelta_storie"></activity>
+		<activity android:name="rientro_applicazione.mainParserDomande"></activity>
+		<activity android:name="rientro_applicazione.accumula_altri_punti"></activity>
+		<activity android:name="rientro_applicazione.accumula_punti"></activity>
+		<activity android:name="rientro_applicazione.accumula_punti"></activity>
+		<activity android:name="rientro_applicazione.domande_random"></activity>
+		<activity android:name="rientro_applicazione.fine_gioco"></activity>
+		<activity android:name="rientro_applicazione.visionare_gadget"></activity>
+		<activity android:name="rientro_applicazione.commenti"></activity>
+		<activity android:name="com.server.client"></activity>
+	<activity android:name="com.sai.samples.views.GalleryView"></activity>
+<activity android:name="occorrente_game_guide.oggetto"></activity>
+<activity android:name="occorrente_game_guide.oggetto_ingresso"></activity>
+<activity android:name="occorrente_game_guide.oggetto_visita"></activity>
+<activity android:name="occorrente_game_guide.oggetto_altro"></activity>
+<activity android:name="rientro_applicazione.local_score"></activity>
+<activity android:name="rientro_applicazione.classifiche"></activity>
+<activity android:name="com.server.global_score.client"></activity>
+</application>
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.REORDER_TASKS" />
+	
+</manifest> 

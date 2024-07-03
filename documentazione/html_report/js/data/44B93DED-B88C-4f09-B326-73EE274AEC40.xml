@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("1.3:1", "", "rientro_applicazione", "EARoot/EA1/EA3/EA85.htm", "175.png", "14", "0", "", "Logical diagram0","{193A9536-E263-4086-92D5-5D05B1E95B9F}");
+tocTab[tocTab.length] = new Array("1.3:2", "", "accumula_altri_punti", "EARoot/EA1/EA3/EA90.htm", "5.png", "207", "0", "", "Class0","{1D47810D-5595-4470-B8B7-215834569009}");
+tocTab[tocTab.length] = new Array("1.3:3", "", "domande_random", "EARoot/EA1/EA3/EA91.htm", "5.png", "208", "0", "", "Class0","{73F9896C-1688-4e79-9747-5C743E5E1F7D}");
+tocTab[tocTab.length] = new Array("1.3:4", "", "mainParserDomande", "EARoot/EA1/EA3/EA92.htm", "5.png", "209", "0", "", "Class0","{32768C52-8F21-486a-9B30-9AEFF65772AF}");
+tocTab[tocTab.length] = new Array("1.3:5", "", "MyDomande", "EARoot/EA1/EA3/EA93.htm", "5.png", "210", "0", "", "Class0","{587420EE-74FD-40be-B144-4CF230EBFC0D}");
+tocTab[tocTab.length] = new Array("1.3:6", "", "MyParserDomande", "EARoot/EA1/EA3/EA94.htm", "5.png", "211", "0", "", "Class0","{F26A90B0-38C5-407c-BCB0-7BE6A1A6C49C}");
+tocTab[tocTab.length] = new Array("1.3:7", "", "rientro_applicazione", "EARoot/EA1/EA3/EA95.htm", "5.png", "212", "0", "", "Class0","{B869BFA5-4D37-49ca-98B0-15BFF7CA89B4}");
+tocTab[tocTab.length] = new Array("1.3:8", "", "scelta_storie", "EARoot/EA1/EA3/EA96.htm", "5.png", "213", "0", "", "Class0","{40C54566-7650-4068-9B38-D0C411C5EB9E}");

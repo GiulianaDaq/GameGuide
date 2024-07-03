@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/altro_foglio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="18dip" android:textColor="#000000" android:text="@+id/TextView01" android:id="@+id/testo_domanda" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+       <TextView android:textColor="#000000"  android:text="Punteggio massimo 30 punti"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/menu">
+      <!-- android:checkedButton="@+id/risposta2" -->  
+        
+          <RadioButton
+            android:text="risposta1" android:textColor="#000000"
+            android:id="@+id/risposta1"
+            />
+        <RadioButton
+            android:text="risposta2" android:textColor="#000000"
+            android:id="@+id/risposta2" />
+        <RadioButton
+            android:text="risposta3" android:textColor="#000000"
+            android:id="@+id/risposta3" />
+        <RadioButton
+            android:text="risposta4" android:textColor="#000000"
+            android:id="@+id/risposta4" />
+        
+       
+        <TextView android:textColor="#000000"
+            android:text="selezionato: niente"
+            android:id="@+id/scelta" />
+    </RadioGroup>
+    <Button
+    android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="conferma"
+        android:id="@+id/ok" 
+        android:onClick="passa_a_storia"/>
+        
+         <TextView android:textColor="#000000" android:text="" android:id="@+id/risultato_punteggio" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <!-- non ha senso mettere un button cancella se la radio button per sua natura prevede una selezione per volta -->
+    <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancella"
+        android:id="@+id/cancella" /> -->
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+                <Button android:text="back" android:id="@+id/back" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="back"/>
+               <Button android:text="Ascolta/leggi storie"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="storie"/>
+
+<Button android:text="next" android:onClick="continua" android:id="@+id/continua" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Home" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"/>
+</LinearLayout>
+</LinearLayout>

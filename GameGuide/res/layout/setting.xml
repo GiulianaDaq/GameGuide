@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/altro_foglio"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:gravity="right"
+    >
+<TextView 
+android:textColor="#000000"
+android:paddingTop="20dip"
+android:textSize="20px"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/consiglio_hardware"
+    />
+<TextView 
+android:textColor="#000000"
+android:textSize="20px"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+ <LinearLayout android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+      android:orientation="horizontal"
+     android:id="@+id/LinearLayout02">
+<Button android:text="Setting GPS" android:id="@+id/ButtonGps" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Setting Network" android:id="@+id/ButtonNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+<TextView 
+android:textColor="#000000"
+android:paddingTop="20dip"
+android:textSize="20px"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/consiglio_hardware2"
+    />
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="10" />
+			
+	<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+
+<Button android:text="procedi" android:id="@+id/ButtonProcedi" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"></Button>
+</LinearLayout>
+</LinearLayout>

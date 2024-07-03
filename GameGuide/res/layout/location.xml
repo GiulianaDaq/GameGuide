@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+         android:gravity="center"
+         android:background="@drawable/altro_foglio"
+    >
+    
+    
+    <TextView android:textColor="#000000" android:textSize="20px"   android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10"></TextView>
+  <!--    <TextView android:textColor="#000000" android:textSize="20px"  android:text="@string/dove_sei" android:id="@+id/dove_sei" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView> -->
+  <TextView android:textColor="#000000" android:textSize="20px"  android:text="@string/avviso_inizio_gioco" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="10"></TextView>
+    <ProgressBar android:textColor="#000000" android:id="@+id/ProgressBar01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ProgressBar>
+    <TextView android:textColor="#000000" android:textSize="20px"  android:id="@+id/coordinate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></TextView>
+    <TextView android:textColor="#000000" android:text=""  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+   <TextView android:textColor="#000000" android:textSize="20px"  android:id="@+id/nome_paese" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""></TextView>
+ <TextView android:textColor="#000000" android:textSize="20px"   android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Procedi utilizzando la Realtà aumentata di Wikitude"></TextView>
+
+
+
+<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+
+<Button android:text="procedi" android:id="@+id/suggerimento_luoghi" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+</LinearLayout>

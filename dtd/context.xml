@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE context SYSTEM "contesto.dtd">
+<context tipo="culto" nome="San Nicola">
+	<descrizione>...</descrizione>
+  <luoghi>	
+<chiesa id="1" nome="Cattedrale San Sabino" latitudine=" 41,122739" longitudine="16,88189">
+<informazione></informazione>		
+        <idcommento>1</idcommento><!-- 1 perchè è la prima tappa in cui lascia un commento-->
+		<idfotografia>1</idfotografia>
+		<idricostruzione3d>...</idricostruzione3d>
+		<idaudio>3</idaudio>
+<audiotts>mnt/sdcard/explore/cattedrale.wav</audiotts>
+
+        <storia>La Cattedrale di Bari è un importante struttura religiosa e architettonica, dedicata a San Sabino di Canosa, fu iniziata in stile bizantino nel 1034, ma distrutta nel 1156. Un nuovo edificio venne costruito tra il 1170-1178, in parte ispirato a quello di San Nicola. Della struttura originale rimangono solo alcune tracce della pavimentazione del transetto. L'architettura visibile oggi è quella romanica e si caratterizza per la bella facciata con i tre portali. La cripta ospita le reliquie di San Sabino e l'icona della Madonna Odegitria. </storia>
+<oggetto1>Entra nella cattedrale e osserva il rosone centrale formato da 18 raggi. Vicino all'altare c'è un rosone realizzato nel pavimento.
+Qui ogni 21 giugno verso le 18 del pomeriggio, i raggi del sole, dal rosone centrale centrano il rosone dell'altare per circa due minuti. Ha così inizio il solstizio d'estate, festeggiato con un'apportuna funzione religiosa</oggetto1>
+<oggetto2>Scendi per le scale, alla tua destra. Troverai l'ingresso verso il succorpo della cattedrale, ovvero verso un sito archeologico, che mostra i resti delle precedenti chiese, distrutte nel 1156 da Guglielmo "il Malo". Puoi chiedere al custode informazioni per la visita.</oggetto2>
+<oggetto3>Scese le scale, alla tua destra ci sono le reliquie di Santa Colomba. Ala tua sinistra c'è il quadro della Madonna di Odegitria, che nell'iconografia cristiana è il primo ritratto conosciuto della vergine Maria. Questa è solo una delle tante copie risalente al 728 d.c. 
+Osserva il dito. Leggende narrano che inidichi una strada. In effetti il nome Odegitria deriva dal greco "ODOS",(VIA) e "EGHETER" (GUIDA), da cui l'appellativo popolare di Madonna del buon cammino. Essa veniva rafigurata nelle strade, per indicare ai pellegrini, la giusta direzione. Affianco ad essa ci sono le reliquie di San Sabino, primo protettore di Bari, spodestato nel XII secolo da San Nicola.</oggetto3>
+
+
+	 </chiesa>
+
+
+
+<!--san nicola-->
+     <altro id="2" nome="Verso la Basilica" latitudine="" longitudine="">
+		<informazione></informazione>
+        <idcommento></idcommento>
+		<idfotografia></idfotografia>
+		<idricostruzione3d></idricostruzione3d>
+		<idaudio></idaudio>
+<audiotts>mnt/sdcard/explore/sannicola.wav</audiotts>
+
+        <storia>San Nicola nacque probabilmente a Pàtara di Licia, tra il 260 ed il 280, da Epifanio e Giovanna che erano cristiani e benestanti. Cresciuto in un ambiente di fede cristiana, perse prematuramente i genitori a causa della peste. Divenne così erede di un ricco patrimonio che impiegò per aiutare i bisognosi. Si narra che Nicola, venuto a conoscenza di un ricco uomo decaduto che voleva avviare le sue tre figlie alla prostituzione perché non poteva farle maritare decorosamente, abbia preso una buona quantità di denaro, lo abbia avvolto in un panno e, di notte, l'abbia gettato nella casa dell'uomo in tre notti consecutive, in modo che le tre figlie avessero la dote per il matrimonio.
+</storia>   
+<oggetto1>Segui l'organizzatore del pellegrinaggio/viaggio turistico. Alla Basilica si accede attraverso un porticato. A sinistra c'è una stradina, attraverso cui i 62 marinari portarono le reliquie di San Nicola a Bari.</oggetto1>
+
+  </altro>
+
+
+
+    <chiesa id="3" nome="Basilica San Nicola" latitudine=" 41,13027195" longitudine="16,8696215">
+		<audiotts>mnt/sdcard/explore/basilica.wav</audiotts>
+
+<informazione></informazione>
+        <storia>Rappresenta uno dei più pregevoli esempi di architettura romanico-pugliese. Iniziata nel 1087 per volontà dell'Abate Elia per conservare le reliquie di S. Nicola, fu terminata nel 1197. Le reliquie furono depositate il 9 maggio 1087 in una abbazia benedettina e la loro venerazione riguarda anche la dimensione ortodossa.
+La tradizione vuole che la Basilica sia stata eretta a seguito dell'arrivo a Bari di un gruppo di marinai baresi (partiti alla volta di Myra in Turchia) in possesso delle spoglie di San Nicola. 
+Leggende narrano che in realtà la basilica fu costruita per celare il Santo Graal, il calice dal quale Cristo bevve nel giorno dell'Ultima Cena con gli apostoli. A fondamento di questa leggenda, Bari era il porto dal quale i crociati partivano per la terra santa.
+</storia>
+<oggetto1>Entra nella Basilica. Alla tua sinistra ci sono i Tesori di San Nicola, ovvero oggetti donati alla Basilica nel corso della storia. Comprende calici, lampade,icone, reliquiari, paramenti sacri, oggetti votivi, e codici liturgici. I dipinti ovali in alto raffigurano i priori, ovvero coloro che ressero la Chiesa fino al tempo in cui (1951) i canonici furoo sostituiti da una comunità domenicana.</oggetto1>
+<oggetto2>Visita la cripta della Basilica. Scendi per le scale a destra dell'altare. Troverai il luogo dove riposa l'Abate Elia, colui che costruì la Basilica. Il sarcofago è ornato da scritte e da un bassorilievo raffiguranti quattro filosofi nella classica tunica greco-romana dalle eleganti pieghe, tre dei quali rivolti a destra e l'ultimo a destra, rivolto a sinistra(di chi guarda) quasi a parlare con loro. </oggetto2>
+<oggetto3>Alla tua destra c'è la colonna dei miracoli. La colonna è stata spostata dal suo posto originario, in quanto i devoti, tentarono di rovinarla. E' una colonna di marmo rossiccio, che da secoli attira la devizione dei pellegrini, che accorrono a toccarla convinti delle sue virtù taumaturgiche. Inoltre, una leggenda locale, racconta che tutte le ragazze nubili, se effettuano 3 giri attorno alla colonna, trovano presto marito. </oggetto3>
+<oggetto4>Al centro ci sono le reliquie di San Nicola. Ogni 9 Maggio, da esse viene estratto un liquida chiamato Manna. Le reliquie di San nicola furono, traslate da sessantadue marinai baresi dalla città di Myra, in Licia, in Turchia e giunte a Bari il 9 maggio 1087.
+Le reliquie vennero ospitate provvisoriamente presso il monastero di san Benedetto retto dall'abate Elia, il quale promosse subito l'edificazione di una nuova grande chiesa per ospitarle, ovvero la Basilica.
+Alla tua sinistra c'è la porta della chiesa ortodossa, chiusa al pubblico e aperta nelle festività</oggetto4>
+<oggetto5>Fuori dalle mura della città c'è il famoso lungomare di Bari, luogo dei festeggiamenti del patron di Bari.</oggetto5>
+        <idcommento>2</idcommento>
+		<idfotografia>2</idfotografia>
+		<idricostruzione3d>...</idricostruzione3d>
+		<idaudio>...</idaudio>
+	 </chiesa>
+     <monumento>
+     </monumento> 
+
+  </luoghi>
+	<audioContext>
+		<risorsa>
+			<id></id>
+			<audio></audio>
+			<lat></lat>
+			<lon></lon>
+			<dMin></dMin>
+			<dMax></dMax>
+			<roll></roll>
+		</risorsa>
+</audioContext>
+<!--prevedere la possibilità che l'utente possa lasciare dei commenti lungo il percorso e che non riguardano la risorsa-->
+       <commenti>
+		<commento>
+			<id>1</id>
+			<testo>cattedrale</testo>
+            <utente>...</utente>
+		</commento>
+	<commento>
+			<id>2</id>
+			<testo>basilica</testo>
+            <utente>...</utente>
+		</commento>
+	<commento>
+			<id>3</id>
+			<testo>cripta</testo>
+            <utente>...</utente>
+		</commento>	  
+ </commenti>
+
+<!--cattedrale-->
+    <domande>
+       <domanda id="1" testo="A chi è dedicata l'originaria struttura della cattedrale?">
+		 <indizio></indizio>
+		 <risposta>San Sabino di Canosa</risposta>
+		 <rispostaerrata1>Madonna Odigitria </rispostaerrata1>
+		 <rispostaerrata2>San Nicola</rispostaerrata2>
+		 <rispostaerrata3>San Giovanni</rispostaerrata3>
+	   </domanda>
+
+       <domanda id="2" testo="Da quanti raggi è formato il rosone centrale?">
+		 <indizio></indizio>
+		 <risposta>18</risposta>
+		 <rispostaerrata1>12</rispostaerrata1>
+		 <rispostaerrata2>16</rispostaerrata2>
+		 <rispostaerrata3>10</rispostaerrata3>
+	   </domanda>
+        <domanda id="3" testo="Quando i raggi del sole centrano il rosone dell'altare?">
+		 <indizio></indizio>
+		 <risposta>solstizio d'estate</risposta>
+		 <rispostaerrata1>solstizio d'inverno </rispostaerrata1>
+		 <rispostaerrata2>un giorno qualsiasi della primavera</rispostaerrata2>
+		 <rispostaerrata3>un giorno qualsiasi dell'autunno</rispostaerrata3>
+	   </domanda>
+
+        <domanda id="4" testo="Quale particolare emerge dall'osservazione del quadro della Madonna di Odegitria?">
+		 <indizio></indizio>
+		 <risposta>l'indice indica qualcosa</risposta>
+		 <rispostaerrata1>ha il Bambin Gesù in braccio </rispostaerrata1>
+		 <rispostaerrata2>è tutta ornata di oro</rispostaerrata2>
+		 <rispostaerrata3>è la Madonna Nera</rispostaerrata3>
+	   </domanda>
+
+        <domanda id="5" testo="Chi è stato il protettore di Bari prima di San Nicola?">
+		 <indizio></indizio>
+		 <risposta>San Sabino di Canosa</risposta>
+		 <rispostaerrata1>Madonna Odegitria</rispostaerrata1>
+		 <rispostaerrata2>Santa Colomba</rispostaerrata2>
+		 <rispostaerrata3>Abate Elia</rispostaerrata3>
+	   </domanda>
+
+        <domanda id="6" testo="Chi distrusse le precedenti chiese su cui poi fù costruita l'attuale Cattedrale?">
+		 <indizio></indizio>
+		 <risposta>Guglielmo "il Malo"</risposta>
+		 <rispostaerrata1>San Sabino</rispostaerrata1>
+		 <rispostaerrata2>San Nicola</rispostaerrata2>
+		 <rispostaerrata3>Abate Elia</rispostaerrata3>
+	   </domanda>
+
+
+<!--basilica-->
+             <domanda id="7" testo="La Basilica fù costruita per:">
+		 <indizio></indizio>
+		 <risposta>custodire le reliquia di San Nicola</risposta>
+		 <rispostaerrata1>per celare il santo gral</rispostaerrata1>
+		 <rispostaerrata2>solo per volontà dell'abate Elia</rispostaerrata2>
+		 <rispostaerrata3>per volontà di un gruppo di marinai baresi</rispostaerrata3>
+	   </domanda>
+       <domanda id="8" testo="Da chi furono traslate le reliquie di San Nicola?">
+		 <indizio></indizio>
+		 <risposta> 62 marinai baresi</risposta>
+		 <rispostaerrata1>Abate Elia</rispostaerrata1>
+		 <rispostaerrata2>Guglielmo "il Malo"</rispostaerrata2>
+		 <rispostaerrata3>San Sabino</rispostaerrata3>
+	   </domanda>
+
+       <domanda id="9" testo="Di chi fù la volontà di costruire una chiesa dedicata alle reliquie di San Nicola?">
+		 <indizio></indizio>
+		 <risposta>Abate Elia</risposta>
+		 <rispostaerrata1>San Sabino</rispostaerrata1>
+		 <rispostaerrata2>62 marinai</rispostaerrata2>
+		 <rispostaerrata3>Santa Colomba</rispostaerrata3>
+	   </domanda>
+
+       <domanda id="10" testo="Da dove furono traslate le reliquie di San Nicola?">
+		 <indizio></indizio>
+		 <risposta>Myra </risposta>
+		 <rispostaerrata1>Bari</rispostaerrata1>
+		 <rispostaerrata2>Napoli</rispostaerrata2>
+		 <rispostaerrata3>Lycia</rispostaerrata3>
+	   </domanda>
+
+       <domanda id="11" testo="Cosa viene estratto dalle reliquie di San Nicola?">
+		 <indizio></indizio>
+		 <risposta>Manna</risposta>
+		 <rispostaerrata1>Mirra</rispostaerrata1>
+		 <rispostaerrata2>Incenso</rispostaerrata2>
+		 <rispostaerrata3>Oro</rispostaerrata3>
+	   </domanda>
+  <domanda id="12" testo="San Nicola è molto venerato perchè leggende narrano che in vita ha?">
+		 <indizio></indizio>
+		 <risposta>aiutato molto i bisognosi</risposta>
+		 <rispostaerrata1>investito tutto il patrimonio di famiglia in opere d'arte</rispostaerrata1>
+		 <rispostaerrata2>aiutato solo i bambini</rispostaerrata2>
+		 <rispostaerrata3>aiutato solo tre ragazze a maritarsi</rispostaerrata3>
+	   </domanda>
+
+    </domande>
+   <fotografie>
+        <foto id="1">...</foto>
+        <foto id="2">...</foto>
+   </fotografie>
+   <ricostruzioni3d>
+       <ricostruzione>....</ricostruzione>
+   </ricostruzioni3d>
+   <stile id="1">
+   <sfondo></sfondo>
+   </stile>
+</context>

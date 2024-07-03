@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/altro_foglio"
+    >  <TextView  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:layout_gravity="center" android:textSize="18px" android:textColor="#000000" android:text="Global Score"  android:id="@+id/titolo" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text=""  android:id="@+id/da_server" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:text="" android:id="@+id/lista" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:textColor="#000000" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+   
+     <LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+                <Button android:text="Local score"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="local_score"></Button>
+<Button android:text="Home" android:id="@+id/ButtonProcedi" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"></Button>
+<Button android:text="chiudi" android:id="@+id/ButtonProcedi" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="procedi"></Button>
+</LinearLayout>
+
+</LinearLayout>

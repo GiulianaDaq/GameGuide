@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.4.1:1", "", "explore", "EARoot/EA1/EA4/EA1/EA98.htm", "175.png", "28", "0", "", "Logical diagram0","{B2F89B1F-AB2C-476b-B754-D17E4158B91C}");
+tocTab[tocTab.length] = new Array("1.4.1:2", "", "lettura_del_parser_data", "EARoot/EA1/EA4/EA1/EA102.htm", "5.png", "215", "0", "", "Class0","{4BC4B043-D4F5-41b0-B6E7-ED98DB66ACF5}");
+tocTab[tocTab.length] = new Array("1.4.1:3", "", "mainExplore", "EARoot/EA1/EA4/EA1/EA103.htm", "5.png", "216", "0", "", "Class0","{BED13880-35B5-426e-B2EC-D4B2D3CB2DF0}");
+tocTab[tocTab.length] = new Array("1.4.1:4", "", "MyContext", "EARoot/EA1/EA4/EA1/EA104.htm", "5.png", "217", "0", "", "Class0","{0015EF70-6A03-4d96-9401-DA1A853FAD62}");
+tocTab[tocTab.length] = new Array("1.4.1:5", "", "MyParserContext", "EARoot/EA1/EA4/EA1/EA105.htm", "5.png", "218", "0", "", "Class0","{DAF0AC42-432E-4888-8762-B2201B582F96}");
+tocTab[tocTab.length] = new Array("1.4.1:6", "", "MyParserTemplate", "EARoot/EA1/EA4/EA1/EA106.htm", "5.png", "219", "0", "", "Class0","{DC9F3A54-F496-43a0-BC48-4DB38C26A75D}");

@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("1.1.2:1", "", "GameGuide", "EARoot/EA1/EA1/EA2/EA17.htm", "175.png", "7", "0", "", "Logical diagram0","{D2ADD08D-85CF-441f-9EDC-DFA9589E5FA4}");
+tocTab[tocTab.length] = new Array("1.1.2:2", "", "BasicOpenARDemoActivity", "EARoot/EA1/EA1/EA2/EA24.htm", "5.png", "177", "0", "", "Class0","{6CEB8FF6-6392-4237-8F62-AECBA39CEE4A}");
+tocTab[tocTab.length] = new Array("1.1.2:3", "", "chiudi_sistema", "EARoot/EA1/EA1/EA2/EA25.htm", "5.png", "178", "0", "", "Class0","{47CC38B0-FAE0-4583-929E-1EE8D22779AB}");
+tocTab[tocTab.length] = new Array("1.1.2:4", "", "main", "EARoot/EA1/EA1/EA2/EA26.htm", "5.png", "179", "0", "", "Class0","{25080378-239D-4c6c-B0DB-063A433ACB6D}");
+tocTab[tocTab.length] = new Array("1.1.2:5", "", "R", "EARoot/EA1/EA1/EA2/EA27.htm", "5.png", "166", "0", "", "Class0","{C649D4B3-4B01-445d-8D8C-914BD43D883C}");
+tocTab[tocTab.length] = new Array("1.1.2:6", "", "«static» attr", "EARoot/EA1/EA1/EA2/EA28.htm", "5.png", "161", "166", "", "Class0","{9F74E074-7CE0-43ca-A567-7EA1A4581F7A}");
+tocTab[tocTab.length] = new Array("1.1.2:7", "", "«static» drawable", "EARoot/EA1/EA1/EA2/EA29.htm", "5.png", "162", "166", "", "Class0","{7C9B1B59-51FB-454f-98BE-3F8583465F33}");
+tocTab[tocTab.length] = new Array("1.1.2:8", "", "«static» id", "EARoot/EA1/EA1/EA2/EA30.htm", "5.png", "163", "166", "", "Class0","{2DDF1D8B-C0EB-442c-9EC7-46DF7FE29625}");
+tocTab[tocTab.length] = new Array("1.1.2:9", "", "«static» layout", "EARoot/EA1/EA1/EA2/EA31.htm", "5.png", "164", "166", "", "Class0","{1C24ACA8-AF38-476b-919B-2E48D29200E6}");
+tocTab[tocTab.length] = new Array("1.1.2:10", "", "«static» string", "EARoot/EA1/EA1/EA2/EA32.htm", "5.png", "165", "166", "", "Class0","{8C873D29-3629-4a9d-8312-4A5C9E316107}");

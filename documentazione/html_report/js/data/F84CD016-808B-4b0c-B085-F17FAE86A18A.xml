@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.1.3:1", "", "location", "EARoot/EA1/EA1/EA3/EA33.htm", "175.png", "9", "0", "", "Logical diagram0","{C1526C1E-1242-4c40-824E-83F8BFA0AFA0}");
+tocTab[tocTab.length] = new Array("1.1.3:2", "", "attiva_gioco", "EARoot/EA1/EA1/EA3/EA40.htm", "5.png", "180", "0", "", "Class0","{6F169710-2E71-4d62-8377-922299B3E023}");
+tocTab[tocTab.length] = new Array("1.1.3:3", "", "Class1", "EARoot/EA1/EA1/EA3/EA41.htm", "5.png", "222", "0", "", "Class0","{417E50CA-2B28-4763-90C0-99FCD72885E6}");
+tocTab[tocTab.length] = new Array("1.1.3:4", "", "inizio_gioco_guida", "EARoot/EA1/EA1/EA3/EA42.htm", "5.png", "181", "0", "", "Class0","{A8F5E8EB-912D-4ad7-9B36-90A70ECB6661}");
+tocTab[tocTab.length] = new Array("1.1.3:5", "", "location", "EARoot/EA1/EA1/EA3/EA43.htm", "5.png", "182", "0", "", "Class0","{B94D1B39-E11F-4ce5-B2E3-92581BF8F667}");
+tocTab[tocTab.length] = new Array("1.1.3:6", "", "setting", "EARoot/EA1/EA1/EA3/EA44.htm", "5.png", "184", "0", "", "Class0","{D790D425-5AC5-446b-A5C1-88D6349B7300}");

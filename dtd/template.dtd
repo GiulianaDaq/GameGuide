@@ -1,0 +1,31 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT template (tappe,idstile)>
+<!ATTLIST template
+  xmlns CDATA #FIXED ''
+  name CDATA #REQUIRED>
+
+<!ELEMENT tappe (idtappa)+>
+<!ATTLIST tappe
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idstile (#PCDATA)>
+<!ATTLIST idstile
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT idtappa ((descrizione|id)+,iddomanda)>
+<!ATTLIST idtappa
+  xmlns CDATA #FIXED ''
+  tipo NMTOKEN #REQUIRED>
+
+<!ELEMENT descrizione (#PCDATA)>
+<!ATTLIST descrizione
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT id (#PCDATA)>
+<!ATTLIST id
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT iddomanda (#PCDATA)>
+<!ATTLIST iddomanda
+  xmlns CDATA #FIXED ''>

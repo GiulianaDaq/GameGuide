@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/altro_foglio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+     <TextView android:textColor="#000000"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:textColor="#000000" android:textSize="18dip" android:text="@+id/TextView01" android:id="@+id/testo_domanda" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+     <TextView android:textColor="#000000" android:layout_gravity="center" android:text="Punteggio massimo 30 punti"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/menu">
+      <!-- android:checkedButton="@+id/risposta2" -->  
+        
+          <RadioButton android:textColor="#000000"
+            android:text="risposta1"
+            android:id="@+id/risposta1"
+            />
+        <RadioButton android:textColor="#000000"
+            android:text="risposta2"
+            android:id="@+id/risposta2" />
+        <RadioButton android:textColor="#000000"
+            android:text="risposta3"
+            android:id="@+id/risposta3" />
+        <RadioButton android:textColor="#000000"
+            android:text="risposta4"
+            android:id="@+id/risposta4" />
+        
+       
+        <TextView android:textColor="#000000"
+            android:text="selezionato: niente"
+            android:id="@+id/scelta" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/ok" 
+        android:onClick="passa_a_storia"
+         android:layout_gravity="center"/>
+        
+         <TextView android:textColor="#000000" android:text="" android:id="@+id/risultato_punteggio" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <!-- non ha senso mettere un button cancella se la radio button per sua natura prevede una selezione per volta -->
+    <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancella"
+        android:id="@+id/cancella" /> -->
+</LinearLayout>
+
+

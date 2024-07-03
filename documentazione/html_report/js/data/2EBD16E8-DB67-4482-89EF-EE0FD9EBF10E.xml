@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("1.2:1", "", "occorrente_game_guide", "EARoot/EA1/EA2/EA70.htm", "175.png", "13", "0", "", "Logical diagram0","{18FD2E43-524E-4d24-A36C-7DA9D06341D9}");
+tocTab[tocTab.length] = new Array("1.2:2", "", "commento", "EARoot/EA1/EA2/EA79.htm", "5.png", "199", "0", "", "Class0","{2CEF1E29-F6FA-45e4-B7CE-96A16716D07F}");
+tocTab[tocTab.length] = new Array("1.2:3", "", "domanda", "EARoot/EA1/EA2/EA80.htm", "5.png", "200", "0", "", "Class0","{45FCD35B-87BA-41fb-82FF-FA8BC96A14E0}");
+tocTab[tocTab.length] = new Array("1.2:4", "", "fine", "EARoot/EA1/EA2/EA81.htm", "5.png", "201", "0", "", "Class0","{B35A4518-29C2-4c9e-AB93-B5C1CC3FB65D}");
+tocTab[tocTab.length] = new Array("1.2:5", "", "MyVarGlobali", "EARoot/EA1/EA2/EA82.htm", "5.png", "205", "0", "", "Class0","{482C20D3-53CC-49e2-B652-9C5924E7CDAD}");
+tocTab[tocTab.length] = new Array("1.2:6", "", "oggetto", "EARoot/EA1/EA2/EA83.htm", "5.png", "76", "0", "", "Class0","{64FD74AA-0D93-4c57-B203-1D376050A8B1}");
+tocTab[tocTab.length] = new Array("1.2:7", "", "storia", "EARoot/EA1/EA2/EA84.htm", "5.png", "206", "0", "", "Class0","{3C2C4078-B2D9-4532-9E83-C8FE4FE4CA1B}");

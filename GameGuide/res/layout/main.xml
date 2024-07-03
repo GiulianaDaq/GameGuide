@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/layout_main"
+android:onClick="autenticazione"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main" 
+    >
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:textColor="#000000" android:layout_width="fill_parent" android:text="@string/hello" android:textSize="20px" android:gravity="center"></TextView>
+         
+    <TextView  
+    android:gravity="center"
+android:textColor="#000000" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_name"
+     android:textSize="20px" 
+    />
+     <TextView  
+
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   
+    />
+    <TextView  
+    android:paddingLeft="22dip"
+   android:gravity="center"
+     android:textSize="18px" 
+android:textColor="#000000" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/descrizione_applicazione"
+    />
+<TextView  android:gravity="center" android:paddingLeft="22dip" android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"  android:textSize="18px" android:text="Clicca su schermo per iniziare" android:textColor="#0000ff" />
+</LinearLayout>

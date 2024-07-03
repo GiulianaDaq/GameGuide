@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:paddingTop="120dip" android:id="@+id/LinearLayout01" android:orientation="vertical" 
+    android:layout_width="fill_parent" android:background="@drawable/altro_foglio" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<Button  android:layout_height="wrap_content" android:id="@+id/local_score" android:width="80pt" android:onClick="local_score" android:layout_width="wrap_content" android:text="  Local score  " android:gravity="center|center_horizontal" android:layout_gravity="center"></Button>
+
+<TextView  android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<Button android:layout_height="wrap_content" android:id="@+id/global_score" android:width="80pt" android:onClick="global_score" android:layout_width="wrap_content" android:text="  Global score  " android:gravity="center|center_horizontal" android:layout_gravity="center"></Button>
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+
+
+<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+               
+<Button android:text="Home" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"/>
+<Button android:text="Chiudi" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="procedi"/>
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+

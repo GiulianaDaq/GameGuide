@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:paddingTop="120dip" android:id="@+id/LinearLayout01" android:orientation="vertical" 
+    android:layout_width="fill_parent" android:background="@drawable/altro_foglio" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<Button android:gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/gadget" android:width="80pt" android:onClick="media" android:layout_width="wrap_content" android:text="  Foto/video  " android:layout_gravity="center|fill_vertical"></Button>
+
+<TextView  android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+<Button android:layout_height="wrap_content"  android:width="80pt" android:onClick="commenti" android:layout_width="wrap_content" android:text="  Commenti  " android:gravity="center|center_horizontal" android:layout_gravity="center"></Button>
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		 />
+
+<Button android:layout_height="wrap_content"  android:width="80pt" android:onClick="classifica" android:layout_width="wrap_content" android:text="  Classifica  " android:gravity="center|center_horizontal" android:layout_gravity="center"></Button>
+<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""
+		android:layout_weight="1" />
+
+
+<LinearLayout   android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/ButtonBar" 
+                android:gravity="right" 
+                >
+               
+<Button android:text="Home" android:id="@+id/home" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+                 android:layout_weight="0"
+                 android:onClick="home"/>
+
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
