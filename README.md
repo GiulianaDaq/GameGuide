@@ -26,7 +26,7 @@ Giuliana D'AQUINO
 ANNO ACCADEMICO 2010-11
 
 <h2>Tecnologie utilizzate</h2>
-Dispositivo Lg Optimus One Android 2.2
+Dispositivo Lg Optimus One <b>Android 2.2</b>
 <ul>Applicazioni come "Argument Geo Travel" e "Sindrone" utilizzano la Realtà Aumentata (in inglese Augmented Reality, abbreviato AR) . Essa è una variazione degli Ambienti Virtuali (in inglese Virtual Environments, abbreviato VE) ovvero la Realtà Virtuale. Le tecnologie di VE immergono completamente l'utente all'interno di un ambiente virtuale non permettendogli, di vedere il mondo reale che lo circonda. Invece AR permette all'utente di vedere il mondo reale in cui degli oggetti virtuali sono sovrapposti con il mondo reale, integrando la realtà invece di sostituirla . Quindi le tre caratteristiche della AR sono: 
   <li>  • Combinazione di reale con virtuale;</li>
   <li>  • Interazione in tempo reale;</li>
